@@ -27,3 +27,6 @@ Project 1
  
  ##.gitignore
  I know that a .gitignore is used so that github can ignore some of the files. This means each repository that contains files that not needs te be track of wil be linked with a .gitignore file to be ignored. For an example the image folder in the Overview repo does not need to be track, because it is just a storage folrder for images.
+
+## Storage of credentials and sensitive information
+What I have planed sofar for protecting the storage and sensitive information is to create authorisation. This means that only certain people will have acces to the information with a login interface, by entering a security password and user name.
