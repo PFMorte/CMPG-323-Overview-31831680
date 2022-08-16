@@ -25,3 +25,5 @@ Project 1
  In the diagram below you can see a visual picture of what my strategy is. For each repo I will have a Main branch, developing branc, feature branch and a realese branch. How  it will work iseach repository will first start with the developing brach where the develop start and the the develop will be tested in the  testing branch. The feature branch will be made if a specifake feature needs to be focused on with in the development branch. Thie feature branch will also be tested to make sure every thing works correctly. After all of the branches has been completed they will be merged with the realse branch to make sure every thing works together and then the release branch wil merge back with the main branch.
  ![](Image/BranchStrategy.PNG)
  
+ ##.gitignore
+ I know that a .gitignore is used so that github can ignore some of the files. This means each repository that contains files that not needs te be track of wil be linked with this file to be ignored. For an example the image folder in the Overview repo does not need to be track, because it is just a storage folrder for images.
