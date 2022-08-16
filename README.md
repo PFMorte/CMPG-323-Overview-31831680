@@ -26,4 +26,4 @@ Project 1
  ![](Image/BranchStrategy.PNG)
  
  ##.gitignore
- I know that a .gitignore is used so that github can ignore some of the files. This means each repository that contains files that not needs te be track of wil be linked with this file to be ignored. For an example the image folder in the Overview repo does not need to be track, because it is just a storage folrder for images.
+ I know that a .gitignore is used so that github can ignore some of the files. This means each repository that contains files that not needs te be track of wil be linked with a .gitignore file to be ignored. For an example the image folder in the Overview repo does not need to be track, because it is just a storage folrder for images.
