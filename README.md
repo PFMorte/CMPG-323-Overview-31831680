@@ -17,7 +17,27 @@ Project 1
  All Information relevant to Standards and Patters will be stored in this repositorie.
 
  ## Repository 4:Testing and RPA
- All information relevant to Testing and RPA will be stored in this repositorie.
+ # CMPG-Project4-31831680
+In this readme file I will add information about how the project works, what its purpose is and what you need to know.
+
+
+Firstly what we need to know is that the UIPath process is created to automate the process of inserting data into the web application. This makes it faster and easier.
+
+## What you will see.
+1. What i did first is I created a sequence called "Read excel data", that reads the data from the excel file.
+2. By using the activity called "Read Range" I was able to create a path to the excel file I wanted to use(Connected Office Test Data) and select the specific sheet I wanted to use.
+3. After step 2 I used the activity "For each row". I was able to save each "CurrentRow" it ino a variable called "dt_DeviceTable".
+4. In the Body of step 3 I added the "Use Application/ Browser" to acces the Web application we have created.
+5. Inside the browser activity I added the path to the Web application, a sequence called "Create new device/zone/category".
+6. In this sequence I added the neccesary input fields, the dropbox fields, checkbox activity, click activity to create a new device, zone or category.
+
+## How it works.
+When running the program it will automaticly create new devices, zones and even categories by imputting the values into the neccesarry fields and clicking the button. This is all done on its own without the user doing anything.
+
+## To do list.
+1. referencing the datatable into the "Typ into" activity.
+2. Adding dropboxes to the the device list.
+
 
 ## Repository 5: Reporting and Monitoring
  All information relevant to Rpoting and Monitouring will be stored in this repositorie.
