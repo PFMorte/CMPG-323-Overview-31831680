@@ -14,7 +14,28 @@ Project 1
  For the Last step it was neccesary to post it onto the cloud and adding security.
 
  ## Repository 3:Standards and Patterns
- All Information relevant to Standards and Patters will be stored in this repositorie.
+ ## CMPG-323-Project-3
+In this repository you will find four files such as the .gitignore file, the ConnectedOffice file, The Readme file and, the Reference file.
+
+## .gitIgnore
+In this file  you will see which type of file in this project will be ignored by GitHub. These files will not be part of the projects.
+
+## ConnectedOffice
+This file contains information and other files needed to create the Web application. In the ConnectedOffice file you will finde the DeviceMannagement_WebApp which contains files needed to create, transfer and implement the data. You will see annother file which is the Visual studio file. All of the coding takes place in this file. The follwing happend in this file:
+1. I created 3 interface for all the of the controllers such as the IZones , ICategories and IDevices. In these interfaces the calling of the functionalities ,such as Update, Create, Delete, Getall and Index are created. 
+2. After I have created the interfaces I created the repositories for each table. You will see I have created CategoriesRepo, ZonesRepo and DeviceRepo. I linked the repositories with the interfaces to transfer and implement the data. These repositories will have data access operations relating to its controllers.
+
+## Azure.
+For the last step, I have published the visual studio file(ConnectedOffice) to Azure under my project2 resourcegroup. I used Azure web app services for windowa to publish the file with a F1 tier free serveice plan. This allowes me to Host my Web application on Azure. The two files you will see Are The ConnectedOffice App serveices and also a ConnectedOfficeWebApp serveice plan (F1, free).
+
+## Word document: References.
+This word doument called references contails URL linked to websites that helped me resolve my problems. I have provided a lis fo them.
+
+### Summery
+What you will fined:
+1. .gitignore that ignores certan files.
+2. ConnectedOffice file which contain all of the files and code needed to create the application.
+3. Explonation of what was done on Azure and how it was published.
 
  ## Repository 4:Testing and RPA
  ## CMPG-Project4-31831680
