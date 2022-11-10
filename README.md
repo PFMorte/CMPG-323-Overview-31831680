@@ -61,7 +61,13 @@ When running the program it will automaticly create new devices, zones and even 
 
 
 ## Repository 5: Reporting and Monitoring
- All information relevant to Rpoting and Monitouring will be stored in this repositorie.
+ In this readme file I will explain everything that you need to know about this project. The project 5 readme file will give a more detail description.
+## What you will see.
+The following files will be in this github repository:
+1. Readme file explaining the project.
+2. Power BI file containing the report of the project.
+3. Word document containing all of the references in order to complete this project.
+
  
  ## Diagram:
  In the Diagram below you will find the project, repositories, repositories milstones and what needs to be completed in the repositories.
